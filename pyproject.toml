@@ -33,7 +33,7 @@ Repository = "https://github.com/rtk-ai/rtk"
 Issues = "https://github.com/rtk-ai/rtk/issues"
 
 [project.entry-points."hermes_agent.plugins"]
-rtk-rewrite = "rtk_hermes:register"
+rtk-rewrite = "rtk_hermes"
 
 [tool.setuptools.packages.find]
 where = ["src"]
